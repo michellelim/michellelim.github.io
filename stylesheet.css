@@ -1,0 +1,207 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, san-serif;
+  /*border-top: 5px solid #908AC2;
+  border-bottom: 5px solid #908AC2;*/ }
+  body.index {
+    background: url(assets/study.jpg) no-repeat center;
+    background-size: cover; }
+    body.index header.main {
+      background: none; }
+
+header.main {
+  width: 100%;
+  background: url(assets/flower.jpg) center top no-repeat fixed;
+  background-size: cover; }
+  header.main .primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2em;
+    margin: 0 auto; }
+    header.main .primary h1 {
+      color: #fff;
+      margin: 0;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: .05em; }
+    header.main .primary nav a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin: 0 .5em; }
+      header.main .primary nav a.selected {
+        color: #908AC2; }
+      header.main .primary nav a:hover {
+        color: #908AC2; }
+  header.main .title {
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0 1.618em; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6em 2em;
+  max-width: 1400px;
+  margin: 0 auto; }
+  main a {
+    color: #908AC2;
+    text-decoration: none; }
+  main.home {
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -100px;
+    padding: 0; }
+    main.home h1 {
+      color: #fff;
+      font-size: 4em;
+      line-height: 1.618em;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      font-weight: bold;
+      margin: 0; }
+    main.home aside {
+      color: #fff;
+      font-size: 2.382em;
+      letter-spacing: .05em; }
+      main.home aside:before, main.home aside:after {
+        display: inline-block;
+        content: '';
+        height: 1px;
+        border-left: 80px solid #fff;
+        margin: 0 .3em .2em .3em; }
+  main.about img {
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 1em; }
+  main.about .blurb {
+    max-width: 600px; }
+    main.about .blurb p {
+      line-height: 1.618em; }
+  main.photography {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    main.photography figure {
+      display: inline-block;
+      position: relative; }
+      main.photography figure:hover figcaption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      main.photography figure:hover:before {
+        display: block; }
+      main.photography figure:before {
+        content: '';
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .3; }
+      main.photography figure img {
+        width: 400px;
+        height: 260px; }
+      main.photography figure figcaption {
+        display: none;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        text-align: center;
+        height: 100%;
+        width: 100%; }
+        main.photography figure figcaption .location {
+          font-size: 2.5em;
+          margin: 0;
+          line-height: 1.618em; }
+        main.photography figure figcaption .date {
+          font-size: 1em; }
+  main.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10em 2em; }
+    main.contact nav {
+      display: flex;
+      justify-content: center;
+      position: relative; }
+      main.contact nav a {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border-radius: 50%;
+        margin: 0 .5em; }
+        main.contact nav a:hover svg {
+          fill: #908AC2; }
+        main.contact nav a:hover > .info {
+          display: inline-block; }
+        main.contact nav a svg {
+          width: 35px;
+          height: 35px; }
+        main.contact nav a .info {
+          display: none;
+          position: absolute;
+          top: 6em;
+          left: 50%;
+          margin-left: -100px;
+          color: #ccc;
+          font-size: 16px;
+          text-align: center;
+          width: 200px; }
+          main.contact nav a .info:before, main.contact nav a .info:after {
+            display: inline-block;
+            color: #000; }
+          main.contact nav a .info:before {
+            content: '['; }
+          main.contact nav a .info:after {
+            content: ']'; }
+  main.quotes {
+    max-width: 600px;
+    margin: 0 auto; }
+    main.quotes blockquote {
+      color: #aaa;
+      font-style: italic;
+      text-transform: uppercase;
+      line-height: 1.618em;
+      margin: 2em 1em; }
+      main.quotes blockquote .author {
+        color: #908AC2;
+        font-style: normal; }
+  main .skills nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    main .skills nav .skill {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #908AC2;
+      width: 120px;
+      height: 120px;
+      border: 1px solid #908AC2;
+      border-radius: 50%;
+      margin: 16px;
+      text-decoration: none;
+      transition: all 0.3s ease-in; }
+      main .skills nav .skill:hover {
+        font-size: 1.3em; }
+
+/*# sourceMappingURL=stylesheet.css.map */
