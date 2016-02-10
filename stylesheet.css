@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'Geomanist';
+  src: url("Geomanist-Regular");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Geomanist';
+  src: url("assets/Geomanist-Regular-Italic.otf");
+  font-weight: normal;
+  font-style: italic; }
 body {
   padding: 0;
   margin: 0;
-  font-family: Arial, san-serif;
+  font-family: 'Geomanist', Arial, san-serif;
   /*border-top: 5px solid #908AC2;
   border-bottom: 5px solid #908AC2;*/ }
   body.index {
@@ -113,11 +123,12 @@ main {
         width: 100%;
         height: 100%;
         background: #000;
-        opacity: .3; }
+        opacity: .5; }
       main.photography figure img {
         width: 400px;
         height: 260px; }
       main.photography figure figcaption {
+        transition: all 0.3s ease-in;
         display: none;
         position: absolute;
         top: 0;
@@ -135,7 +146,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10em 2em; }
+    padding: 8em 2em; }
+    main.contact h2 {
+      font-weight: normal;
+      font-style: italic;
+      margin-bottom: 2em; }
     main.contact nav {
       display: flex;
       justify-content: center;
@@ -165,14 +180,15 @@ main {
           color: #ccc;
           font-size: 16px;
           text-align: center;
+          letter-spacing: .05em;
           width: 200px; }
           main.contact nav a .info:before, main.contact nav a .info:after {
             display: inline-block;
             color: #000; }
           main.contact nav a .info:before {
-            content: '['; }
+            content: '[\00a0'; }
           main.contact nav a .info:after {
-            content: ']'; }
+            content: '\00a0]'; }
   main.quotes {
     max-width: 600px;
     margin: 0 auto; }
