@@ -6,7 +6,7 @@
 }
 @font-face {
 	font-family: 'Geomanist';
-	src: url('assets/Geomanist-Regular-Italic.otf');
+	src: url('assets/fonts/Geomanist-Regular-Italic.otf');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -17,7 +17,7 @@ body {
 	font-family: 'Geomanist', Arial, san-serif;
 
 	&.index {
-		background: url(assets/study.jpg) no-repeat center;
+		background: url(assets/images/study.jpg) no-repeat center;
 		background-size: cover;
 		header.main {
 			background: none;
@@ -26,7 +26,7 @@ body {
 }
 header.main {
 	width: 100%;
-	background: url(assets/flower.jpg) center top no-repeat fixed;
+	background: url(assets/images/flower.jpg) center top no-repeat fixed;
 	background-size: cover;
 
 	.primary {

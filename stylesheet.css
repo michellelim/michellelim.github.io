@@ -5,7 +5,7 @@
   font-style: normal; }
 @font-face {
   font-family: 'Geomanist';
-  src: url("assets/Geomanist-Regular-Italic.otf");
+  src: url("assets/fonts/Geomanist-Regular-Italic.otf");
   font-weight: normal;
   font-style: italic; }
 body {
@@ -13,14 +13,14 @@ body {
   margin: 0;
   font-family: 'Geomanist', Arial, san-serif; }
   body.index {
-    background: url(assets/study.jpg) no-repeat center;
+    background: url(assets/images/study.jpg) no-repeat center;
     background-size: cover; }
     body.index header.main {
       background: none; }
 
 header.main {
   width: 100%;
-  background: url(assets/flower.jpg) center top no-repeat fixed;
+  background: url(assets/images/flower.jpg) center top no-repeat fixed;
   background-size: cover; }
   header.main .primary {
     display: flex;

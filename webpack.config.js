@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 const BUILD_DIR = path.resolve(__dirname, 'assets/bundle');
 const APP_DIR = path.resolve(__dirname, 'assets/src');
@@ -15,6 +16,9 @@ module.exports = {
     devServer: {
         inline: true
     },
+    plugins: [
+        new UglifyJSPlugin()
+    ],
     module: {
         loaders: [
             {
