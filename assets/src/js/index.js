@@ -4,6 +4,6 @@ import {render} from 'react-dom';
 require('../sass/main.scss');
 
 render((
-    <div>:)</div>
+    <div>welcome</div>
 ), document.getElementById('content'));
 

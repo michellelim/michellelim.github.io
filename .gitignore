@@ -2,3 +2,4 @@
 assets/.DS_Store
 stylesheet.css.map
 node_modules/
+assets/bundle/bundle.js.map
