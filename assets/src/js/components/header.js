@@ -19,7 +19,7 @@ const Header = React.createClass({
         return (
             <header className='main'>
                 <div className='primary'>
-                    <h1>Michelle Lim</h1>
+                    <h1><span>Michelle</span> Lim</h1>
                     <nav>
                         {navItems}
                     </nav>
