@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --open & webpack --watch"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -28,10 +28,14 @@
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "css-loader": "^0.27.3",
+    "file-loader": "^0.10.1",
     "node-sass": "^4.5.1",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.0",
     "uglifyjs-webpack-plugin": "^0.3.1",
+    "url-loader": "^0.5.8",
     "webpack": "^2.3.2",
     "webpack-dev-server": "^2.4.2"
   }

@@ -29,6 +29,10 @@ module.exports = {
             {
                 test: /\.scss$/,
                 loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
+            },
+            {
+                test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
+                loader: 'url-loader'
             }
         ]
     }
