@@ -9,7 +9,7 @@ module.exports = {
     entry: APP_DIR + '/js/index.js',
     output: {
         path: BUILD_DIR,
-        publicPath: 'assets/bundle',
+        publicPath: '/',
         filename: 'bundle.js'
     },
     devtool: 'source-map',
