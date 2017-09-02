@@ -4,6 +4,7 @@ import {HashRouter, Route} from 'react-router-dom';
 
 import Home from './views/home';
 import About from './views/about';
+import Work from './views/work';
 import Photography from './views/photography';
 import Contact from './views/contact';
 
@@ -21,6 +22,11 @@ const links = [
         src: '/about'
     },
     {
+        name: 'work',
+        title: 'projects.',
+        src: '/work'
+    },
+    {
         name: 'photography',
         title: 'snapshots.',
         src: '/photography'
@@ -35,6 +41,12 @@ const links = [
 const HomeComp = (props) => {
     return  (
         <Home links={links} />
+    )
+};
+
+const WorkComp = (props) => {
+    return  (
+        <Work links={links} />
     )
 };
 
@@ -61,6 +73,7 @@ render((
         <div>
             <Route exact path='/' render={HomeComp} />
             <Route path='/about' render={AboutComp} />
+            <Route path='/work' render={WorkComp} />
             <Route path='/photography' render={PhotographyComp} />
             <Route path='/contact' render={ContactComp} />
         </div>
