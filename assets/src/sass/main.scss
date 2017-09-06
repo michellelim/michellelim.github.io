@@ -240,56 +240,59 @@ body {
                 flex-direction: row;
                 justify-content: center;
                 flex-wrap: wrap;
-                max-width: 1000px;
+                max-width: 1200px;
                 margin: 0 auto;
 
-                .project a {
-                    display: flex;
-                    position: relative;
-                    height: 260px;
-                    width: 300px;
-                    margin: 0;
-
-                    img {
-                        height: 100%;
-                        width: 100%;
-                    }
-
-                    figcaption {
-                        visibility: hidden;
+                .project {
+                    margin: 1em;
+                    a {
                         display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        box-sizing: border-box;
-                        padding: 1em;
-                        background-color: rgba(0,0,0,.7);
-                        color: #fff;
-                        position: absolute;
-                        top: 0;
-                        right: 0;
-                        bottom: 0;
-                        left: 0;
+                        position: relative;
+                        height: 240px;
+                        width: 300px;
+                        margin: 0;
 
-                        h1 {
-                            font-size: 1.618em;
-                            margin: 1em 0;
+                        img {
+                            height: 100%;
+                            width: 100%;
                         }
 
-                        .tech {
+                        figcaption {
+                            visibility: hidden;
                             display: flex;
+                            flex-direction: column;
                             justify-content: center;
-                            align-items: center;
+                            box-sizing: border-box;
+                            padding: 1em;
+                            background-color: rgba(0,0,0,.7);
+                            color: #fff;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            bottom: 0;
+                            left: 0;
 
-                            svg {
-                                width: 2em;
-                                height: 2em;
-                                fill: #fff;
+                            h1 {
+                                font-size: 1.618em;
+                                margin: 1em 0;
+                            }
+
+                            .tech {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                svg {
+                                    width: 2em;
+                                    height: 2em;
+                                    fill: #fff;
+                                }
                             }
                         }
-                    }
 
-                    &:hover figcaption {
-                        visibility: visible;
+                        &:hover figcaption {
+                            visibility: visible;
+                        }
                     }
                 }
             }

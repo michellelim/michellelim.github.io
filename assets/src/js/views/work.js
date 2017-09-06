@@ -4,13 +4,13 @@ import Header from '../components/header';
 const title = 'projects.';
 
 const projects = [
-  // {
-  //   name: 'Prop Quiz',
-  //   description: 'Quiz Creation Web App',
-  //   imageUrl: '',
-  //   url: 'https://propquiz.ebackwel.com',
-  //   tech: ['React', 'Material UI']
-  // },
+  {
+    name: 'Prop Quiz',
+    description: 'Quiz Creation Web App for friendly competition during live events',
+    imageUrl: 'assets/images/propquiz-thumb.jpg',
+    url: '/assets/images/propquiz.jpg',
+    tech: ['React', 'Material UI']
+  },
   // {
   //   name: 'tmsecret',
   //   description: 'Progressive Web App',
@@ -21,14 +21,14 @@ const projects = [
   {
     name: 'Aquinas High School',
     description: 'Built website from PSD',
-    imageUrl: 'assets/images/aquinas.png',
+    imageUrl: 'assets/images/aquinas.jpg',
     url: 'http://www.aquinashs.net/',
     tech: ['HTML', 'CSS']
   },
   {
     name: 'Saint James School',
     description: 'Built website from PSD',
-    imageUrl: 'assets/images/saintjames.png',
+    imageUrl: 'assets/images/saintjames.jpg',
     url: 'http://www.sjsbr.org/',
     tech: ['HTML', 'CSS']
   }
