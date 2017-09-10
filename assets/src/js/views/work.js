@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header';
+import Project from '../components/project';
 
 const title = 'projects.';
 
@@ -38,21 +39,13 @@ const Work = React.createClass({
   buildPortfolio: function() {
     return projects.map(project => {
       return (
-        <figure className="project">
-          <a href={project.url} target="_blank">
-            <img src={project.imageUrl} />
-            <figcaption>
-              <h1 className="title">{project.name}</h1>
-              <p className="desc">{project.description}</p>
-              <aside className="tech">
-                <svg viewBox="10 0 100 100">
-                  <g><g><g><polygon points="31.7,70 13.5,50.5 31.7,31.1 39,37.9 27.2,50.5 39,63.1    "/></g><g><polygon points="68.3,70 61,63.1 72.8,50.5 61,37.9 68.3,31.1 86.5,50.5    "/></g></g><g><rect x="20.1" y="45" transform="matrix(-0.2004 0.9797 -0.9797 -0.2004 108.994 11.0433)" width="59.9" height="10"/></g></g>
-                </svg>
-                {project.tech.join(', ')}
-              </aside>
-            </figcaption>
-          </a>
-        </figure>
+        <Project
+          url={project.url}
+          imageUrl={project.imageUrl}
+          name={project.name}
+          description={project.description}
+          tech={project.tech.join(', ')}
+        />
       )
     })
   },
