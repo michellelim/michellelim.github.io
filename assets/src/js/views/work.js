@@ -9,7 +9,7 @@ const projects = [
     name: 'Prop Quiz',
     description: 'Quiz Creation Web App for friendly competition during live events',
     imageUrl: 'assets/images/propquiz-thumb.jpg',
-    url: '/assets/images/propquiz.jpg',
+    url: 'https://www.prop-quiz.com',
     tech: ['React', 'Material UI']
   },
   // {
