@@ -245,16 +245,15 @@ body {
                 margin: 0 auto;
 
                 .project {
+                    flex: 0 1 100%;
                     margin: 1em;
                     a {
-                        display: flex;
+                        display: inline-block;
                         position: relative;
-                        height: 240px;
-                        width: 300px;
                         margin: 0;
 
                         img {
-                            height: 100%;
+                            height: auto;
                             width: 100%;
                         }
 
@@ -293,6 +292,20 @@ body {
 
                         &:hover figcaption {
                             visibility: visible;
+                        }
+                    }
+
+                    @media (min-width: 460px) {
+                        flex: 0 1 350px;
+                        height: 280px;
+                        
+                        a figcaption {
+                            h1 {
+                                font-size: 1.8em;
+                            }
+                            .desc, .tech {
+                                font-size: 1.2em;
+                            }
                         }
                     }
                 }

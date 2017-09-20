@@ -7,28 +7,28 @@ const title = 'projects.';
 const projects = [
   {
     name: 'Prop Quiz',
-    description: 'Quiz Creation Web App for friendly competition during live events',
+    description: 'Quiz creation web app for friendly competition during live events',
     imageUrl: 'assets/images/propquiz-thumb.jpg',
     url: 'https://www.prop-quiz.com',
     tech: ['React', 'Material UI']
   },
-  // {
-  //   name: 'tmsecret',
-  //   description: 'Progressive Web App',
-  //   imageUrl: '',
-  //   url: '/',
-  //   tech: ['React', 'Redux', 'Material UI']
-  // },
+  {
+    name: 'memolets',
+    description: 'Social media progressive web app for sharing tips from experiences',
+    imageUrl: 'assets/images/memolets.jpg',
+    url: 'javascript:;',
+    tech: ['React', 'Redux', 'Material UI']
+  },
   {
     name: 'Aquinas High School',
-    description: 'Built website from PSD',
+    description: 'Website built from PSD',
     imageUrl: 'assets/images/aquinas.jpg',
     url: 'http://www.aquinashs.net/',
     tech: ['HTML', 'CSS']
   },
   {
     name: 'Saint James School',
-    description: 'Built website from PSD',
+    description: 'Website built from PSD',
     imageUrl: 'assets/images/saintjames.jpg',
     url: 'http://www.sjsbr.org/',
     tech: ['HTML', 'CSS']
