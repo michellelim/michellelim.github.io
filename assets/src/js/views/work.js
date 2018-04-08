@@ -16,7 +16,7 @@ const projects = [
     name: 'memolets',
     description: 'Social media progressive web app for sharing tips from experiences',
     imageUrl: 'assets/images/memolets.jpg',
-    url: '/memolets-preview.html',
+    url: 'http://www.memolets.com',
     tech: ['React', 'Redux', 'Material UI']
   },
   {
