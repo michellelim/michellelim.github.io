@@ -13,7 +13,7 @@ const Home = React.createClass({
                 />
                 <main>
                     <h1>Michelle Lim</h1>
-                    <aside>Web Developer</aside>
+                    <aside>Software Engineer</aside>
                 </main>
             </div>
         )
