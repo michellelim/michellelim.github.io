@@ -10,14 +10,14 @@ const projects = [
     description: 'Quiz creation web app for friendly competition during live events',
     imageUrl: 'assets/images/propquiz-thumb.jpg',
     url: 'https://www.prop-quiz.com',
-    tech: ['React', 'Material UI']
+    tech: ['React']
   },
   {
     name: 'memolets',
     description: 'Social media progressive web app for sharing tips from experiences',
     imageUrl: 'assets/images/memolets.jpg',
-    url: 'http://www.memolets.com',
-    tech: ['React', 'Redux', 'Material UI']
+    url: 'https://memolets.com',
+    tech: ['React', 'Redux']
   },
   {
     name: 'Aquinas High School',
